@@ -12,7 +12,7 @@ angular.module('politicard').config(function($stateProvider, $urlRouterProvider)
             controller: function($state) {
                 setTimeout(function(){
                    $state.go('menu'); 
-                },1500);
+                },3500);
             }
         })
         
