@@ -27,9 +27,7 @@ angular.module('politicard').config(function($stateProvider, $urlRouterProvider)
         .state('arena', {
             url: '/arena',
             templateUrl: '../templates/arena.html',
-            controller: function($scope) {
-                
-            }
+            controller: 'ArenaController'
         })
     
         .state('creditos', {
@@ -38,6 +36,13 @@ angular.module('politicard').config(function($stateProvider, $urlRouterProvider)
             controller: function($scope) {
                 $scope.equipe = [{nome:'Cleber'}, {nome:'Gladison'}, {nome:'Jefferson'}, {nome:'Keoma'}, {nome:'Pedro'}]
             }
+        })
+        
+        .state('galeria', {
+            url: '/galeria',
+            templateUrl: '../templates/galeria.html',
+            controller: 'GaleriaController',
+            controllerAs: "vm"
         });
     
         

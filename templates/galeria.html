@@ -1,0 +1,31 @@
+<div class="galeria row">
+    <h1>Galeria</h1> 
+    
+    <div class="card col-3" ng-repeat="politico in politicos">
+            <div class="card-bar-box">
+                 <div class="card-info-nome">
+                     {{politico.nome}}
+                 </div>
+                 <div class="card-info-partido">
+                     <img ng-src="{{politico['url-img-partido']}}"/>
+                 </div>
+            </div>
+            <img class="card-info-img" ng-src="{{politico['url-img']}}">
+        
+        <div class="card-attr-box">
+            <div class="card-attr-presenca">
+                <label>Presença</label><span>{{politico.presenca}}</span>
+            </div>
+            <div class="card-attr-privilegio">
+                <label>Privilégios</label><span>{{politico.privilegio}}</span>
+            </div>
+            <div class="card-attr-processos">
+                <label>Processos</label><span>{{politico.processo}}</span>
+            </div>
+            <div class="card-attr-privilegio">
+                <label>Votos</label><span>{{politico.privilegio}}</span>
+            </div>
+        </div>
+   </div>
+
+</div>
