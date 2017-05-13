@@ -1,0 +1,52 @@
+[ 
+	{
+		"nome": "Eduardo Nantes Bolsonaro (Eduardo Bolsonaro)",
+		"url-img": "img/EduardoBolsonaro.jpg",
+		"partido": "PSC",
+		"presenca": 95.66,
+		"privilegio": 728179.62,
+		"participacao": 0,
+		"processo": 0, 
+		"votos": 82224
+	},
+	{
+		"nome": "Francisco Everardo Oliveira Silva (Tiririca)",
+		"url-img": "img/Tiririca.jpg",
+		"partido": "PR",
+		"presenca": 99.62,
+		"privilegio": 326193.75,
+		"participacao": 30,
+		"processo": 0, 
+		"votos": 1353820
+	},
+	{
+		"nome": "Paulo Salim Maluf (Paulo Maluf)",
+		"url-img": "img/PauloMaluf.jpg",
+		"partido": "PP",
+		"presenca": 41,
+		"privilegio": 1441501.58,
+		"participacao": 5,
+		"processo": 36, 
+		"votos": 497203
+	},
+	{
+		"nome": "Andres Navarro Sanchez (Andres Sanchez)",
+		"url-img": "img/AndresSanchez.jpg",
+		"partido": "PT",
+		"presenca": 96.42,
+		"privilegio": 594502.47,
+		"participacao": 6,
+		"processo": 6, 
+		"votos": 101203
+	},
+	{
+		"nome": "Paulo Roberto Gomes Mansur (Beto Mansur)",
+		"url-img": "img/BetoMansur.jpg",
+		"partido": "PRB",
+		"presenca": 90.35,
+		"privilegio": 711915.05,
+		"participacao": 4,
+		"processo": 67, 
+		"votos": 65397
+	}
+]
