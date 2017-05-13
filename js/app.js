@@ -1,10 +1,44 @@
-// Ionic Starter App
+angular.module('politicard', ['ui.router']);
 
-// angular.module is a global place for creating, registering and retrieving Angular modules
-// 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
-// the 2nd parameter is an array of 'requires'
-var app = angular.module('politicard', [])
-
-.run(function($scope) {
-  
-})
+angular.module('politicard').config(function($stateProvider, $urlRouterProvider) {
+    
+    $urlRouterProvider.otherwise('/splashscreen');
+    
+    $stateProvider
+        
+        .state('splashscreen', {
+            url: '/splashscreen',
+            templateUrl: '../templates/splashscreen.html',
+            controller: function($state) {
+                setTimeout(function(){
+                   $state.go('menu'); 
+                },1500);
+            }
+        })
+        
+        .state('menu', {
+            url: '/menu',
+            templateUrl: '../templates/menu.html',
+            controller: function($scope) {
+                
+            }
+        })
+    
+        .state('arena', {
+            url: '/arena',
+            templateUrl: '../templates/arena.html',
+            controller: function($scope) {
+                
+            }
+        })
+    
+        .state('creditos', {
+            url: '/creditos',
+            templateUrl: '../templates/creditos.html',
+            controller: function($scope) {
+                $scope.equipe = [{nome:'Cleber'}, {nome:'Gladison'}, {nome:'Jefferson'}, {nome:'Keoma'}, {nome:'Pedro'}]
+            }
+        });
+    
+        
+});

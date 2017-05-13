@@ -1,5 +1,5 @@
-(function() {
-'use strict';
+(function () {
+    'use strict';
 
     angular
         .module('politicard')
@@ -8,7 +8,7 @@
     MenuController.inject = ['$state'];
     function MenuController($state) {
         var vm = this;
-        
+
 
         activate();
 
