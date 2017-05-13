@@ -71,6 +71,10 @@
     color: #000;
 }
 
+.card-attr-box div.active {
+    background-color: #618CA7;
+}
+
 .card-attr-box div:first-child {
     border: 0.5em solid #c0c0c0;
 }
