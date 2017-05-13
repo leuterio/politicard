@@ -1,0 +1,20 @@
+[
+	{
+		"nome": "Fabio Fernandes de Sousa (Fábio Sousa)",
+		"url-img": "",
+		"partido": "PSDB",
+		"presenca": 0,
+		"privilegio": 36,
+		"participacao": 1,
+		"processo": 0
+	}, 
+	{
+		"nome": "Eduardo Nantes Bolsonaro (Eduardo Bolsonaro)",
+		"url-img": "",
+		"partido": "PSC",
+		"presenca": "26",
+		"privilegio": "12",
+		"participacao": "5",
+		"processo": "0"
+	} 
+]
