@@ -1,20 +1,101 @@
 [
 	{
-		"nome": "Fabio Fernandes de Sousa (Fábio Sousa)",
-		"url-img": "",
-		"partido": "PSDB",
-		"presenca": 0,
-		"privilegio": 36,
-		"participacao": 1,
-		"processo": 0
-	}, 
+		"nome" : "Carlos Humberto Mannato (Carlos Manato)",
+		"url-img": "img/candidatos/CarlosHumbertoMannato.jpg",
+		"partido" : "Deputado Federal - SDD",
+		"presenca" : 0,
+		"privilegio" : 0,
+		"participacao" : 0,
+		"processo" : 0
+	},
 	{
-		"nome": "Eduardo Nantes Bolsonaro (Eduardo Bolsonaro)",
-		"url-img": "",
-		"partido": "PSC",
-		"presenca": "26",
-		"privilegio": "12",
-		"participacao": "5",
-		"processo": "0"
-	} 
+		"nome" : "Evair Vieira de Melo (Evair de Melo)",
+		"url-img": "img/candidatos/CarlosHumbertoMannato",
+		"partido" : "Deputado Federal - PV",
+		"presenca":  34,
+		"privilegio" :  9,
+		"participacao" :  0,
+		"processo" :  0
+	},
+	{
+		"nome" : "Paulo Roberto Foletto (Paulo Foletto)",
+		"url-img": "img/candidatos/CarlosHumbertoMannato",
+		"partido" : "Deputado Federal - PSB",
+		"presenca":  16,
+		"privilegio" :  9,
+		"participacao" :  0,
+		"processo" :  -10
+	},
+	{
+		"nome" : "Welington Coimbra (Lelo Coimbra)",
+		"url-img": "img/candidatos/CarlosHumbertoMannato",
+		"partido" : "Deputado Federal - PMDB",
+		"presenca":  -8,
+		"privilegio" :  0,
+		"participacao" :  0,
+		"processo" :  -20
+	},
+	{
+		"nome" : "Jorge Silva (Dr. Jorge Silva)",
+		"url-img": "img/candidatos/CarlosHumbertoMannato",
+		"partido" : "Deputado Federal - PHS",
+		"presenca":  10,
+		"privilegio" :  9,
+		"participacao" :  0,
+		"processo" :  0
+	},
+	{
+		"nome" : "Marcus Antonio Vicente (Marcus Vicente)",
+		"url-img": "img/candidatos/CarlosHumbertoMannato",
+		"partido" : "Deputado Federal - PP",
+		"presenca":  2,
+		"privilegio" :  9,
+		"participacao" :  0,
+		"processo" :  -20
+	},
+	{
+		"nome" : "Norma Ayub Alves (NORMA AYUB)",
+		"url-img": "img/candidatos/CarlosHumbertoMannato",
+		"partido" : "Deputado Federal - DEM",
+		"presenca":  0,
+		"privilegio" :  0,
+		"participacao" :  0,
+		"processo" :  0
+	},
+	{
+		"nome" : "Max Freitas Mauro Filho (Max Filho)",
+		"url-img": "img/candidatos/CarlosHumbertoMannato",
+		"partido" : "Deputado Federal - PSDB",
+		"presenca":  14,
+		"privilegio" :  18,
+		"participacao" :  0,
+		"processo" :  -60
+	},
+	{
+		"nome" : "Antonio Sergio Alves Vidigal (Sergio Vidigal)",
+		"url-img": "img/candidatos/CarlosHumbertoMannato",
+		"partido" : "Deputado Federal - PDT",
+		"presenca":  28,
+		"privilegio" :  12,
+		"participacao" :  10,
+		"processo" :  -90
+	},
+	{
+		"nome" : "Givaldo Vieira da Silva (Givaldo Vieira)",
+		"url-img": "img/candidatos/CarlosHumbertoMannato",
+		"partido" : "Deputado Federal - PT",
+		"presenca":  10,
+		"privilegio" :  6,
+		"participacao" :  0,
+		"processo" :  0
+	},
+	{
+		"nome" : "Helder Ignacio Salomão (Helder Salomão)",
+		"url-img": "img/candidatos/CarlosHumbertoMannato",
+		"partido" : "Deputado Federal - PT",
+		"presenca":  20,
+		"privilegio" :  12,
+		"participacao" :  0,
+		"processo" :  -50
+		}
 ]
