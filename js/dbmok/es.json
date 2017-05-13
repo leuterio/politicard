@@ -3,110 +3,110 @@
 		"nome" : "Carlos Humberto Mannato (Carlos Manato)",
 		"url-img": "img/CarlosHumbertoMannato.jpg",
 		"partido" : "Deputado Federal - SDD",
-		"presenca" : 0,
-		"privilegio" : 0,
+		"presenca" : 86.13,
+		"privilegio" : 878558.89,
 		"participacao" : 0,
 		"processo" : 0,
-		"votos" : 0
+		"votos" : 67631
 	},
 	{
 		"nome" : "Evair Vieira de Melo (Evair de Melo)",
 		"url-img": "img/EvairVieiradeMelo.jpg",
 		"partido" : "Deputado Federal - PV",
-		"presenca":  34,
-		"privilegio" :  9,
+		"presenca":  97.40,
+		"privilegio" :  742672.23,
 		"participacao" :  0,
 		"processo" :  0,
-		"votos" : 0
+		"votos" : 63636
 	},
 	{
 		"nome" : "Paulo Roberto Foletto (Paulo Foletto)",
 		"url-img": "img/PauloRobertoFoletto.jpg",
 		"partido" : "Deputado Federal - PSB",
-		"presenca":  16,
-		"privilegio" :  9,
-		"participacao" :  0,
-		"processo" :  -10,
-		"votos" : 0
+		"presenca":  90.71,
+		"privilegio" :  761211.29,
+		"participacao" : 0,
+		"processo" : 1,
+		"votos" : 56565
 	},
 	{
 		"nome" : "Welington Coimbra (Lelo Coimbra)",
 		"url-img": "img/WelingtonCoimbra.jpg",
 		"partido" : "Deputado Federal - PMDB",
-		"presenca":  -8,
-		"privilegio" :  0,
+		"presenca": 84.98,
+		"privilegio" : 898331.94,
 		"participacao" :  0,
-		"processo" :  -20,
-		"votos" : 0
+		"processo" : 2,
+		"votos" : 105458
 	},
 	{
 		"nome" : "Jorge Silva (Dr. Jorge Silva)",
 		"url-img": "img/JorgeSilva.jpg",
 		"partido" : "Deputado Federal - PHS",
-		"presenca":  10,
-		"privilegio" :  9,
+		"presenca":  86.99,
+		"privilegio" :  781478.31,
 		"participacao" :  0,
 		"processo" :  0,
-		"votos" : 0
+		"votos" : 67262
 	},
 	{
 		"nome" : "Marcus Antonio Vicente (Marcus Vicente)",
 		"url-img": "img/MarcusAntonioVicente.jpg",
 		"partido" : "Deputado Federal - PP",
-		"presenca":  2,
-		"privilegio" :  9,
-		"participacao" :  0,
-		"processo" :  -20,
-		"votos" : 0
+		"presenca": 83.81,
+		"privilegio" : 755294.09,
+		"participacao" : 0,
+		"processo" : 2,
+		"votos" : 56565
 	},
 	{
 		"nome" : "Norma Ayub Alves (NORMA AYUB)",
 		"url-img": "img/NormaAyubAlves.jpg",
 		"partido" : "Deputado Federal - DEM",
-		"presenca":  0,
-		"privilegio" :  0,
+		"presenca":  87.54,
+		"privilegio" : 75777.08,
 		"participacao" :  0,
 		"processo" :  0,
-		"votos" : 0
+		"votos" : 35655
 	},
 	{
 		"nome" : "Max Freitas Mauro Filho (Max Filho)",
 		"url-img": "img/MaxFreitasMauroFilho.jpg",
 		"partido" : "Deputado Federal - PSDB",
-		"presenca":  14,
-		"privilegio" :  18,
-		"participacao" :  0,
-		"processo" :  -60,
-		"votos" : 0
+		"presenca":  89.31,
+		"privilegio" : 638870.51,
+		"participacao" : 0,
+		"processo" : 6,
+		"votos" : 65656
 	},
 	{
 		"nome" : "Antonio Sergio Alves Vidigal (Sergio Vidigal)",
 		"url-img": "img/AntonioSergioAlvesVidigal.jpg",
 		"partido" : "Deputado Federal - PDT",
-		"presenca":  28,
-		"privilegio" :  12,
-		"participacao" :  10,
-		"processo" :  -90,
-		"votos" : 0
+		"presenca":  94.58,
+		"privilegio" : 717346.86,
+		"participacao" : 0,
+		"processo" : 9,
+		"votos" : 65434
 	},
 	{
 		"nome" : "Givaldo Vieira da Silva (Givaldo Vieira)",
 		"url-img": "img/GivaldoVieiradaSilva.jpg",
 		"partido" : "Deputado Federal - PT",
-		"presenca":  10,
-		"privilegio" :  6,
+		"presenca":  89.89,
+		"privilegio" :  788238.30,
 		"participacao" :  0,
 		"processo" :  0,
-		"votos" : 0
+		"votos" : 56576
 	},
 	{
 		"nome" : "Helder Ignacio Salomão (Helder Salomão)",
 		"url-img": "img/HelderIgnacioSalomão.jpg",
 		"partido" : "Deputado Federal - PT",
-		"presenca":  20,
-		"privilegio" :  12,
+		"presenca":  93.56,
+		"privilegio" :  730116.88,
 		"participacao" :  0,
-		"processo" :  -50,
-		"votos" : 0
+		"processo" : 5,
+		"votos" : 67567
 		}
 ]
