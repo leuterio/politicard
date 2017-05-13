@@ -1,6 +1,6 @@
 [
 		{
-		"nome" : "Ronaldo Fonseca de Souza (Ronaldo Fonseca)",
+		"nome" : "Ronaldo Fonseca",
 		"url-img": "img/RonaldoFonsecadeSouza.jpg",
 		"url-img-partido" : "img/PROS.jpg",
 		"cargo" : "Deputado Federal",
@@ -11,7 +11,7 @@
 		"votos" : 84583
 	},
 	{
-		"nome" : "Izalci Lucas Ferreira (Izalci)",
+		"nome" : "Izalci",
 		"url-img": "img/IzalciLucasFerreira.jpg",
 		"url-img-partido" : "img/PSDB.jpg",
 		"cargo" : "Deputado Federal",
@@ -22,7 +22,7 @@
 		"votos" : 97914
 	},
 	{
-		"nome" : "João Alberto Fraga Silva (Alberto Fraga)",
+		"nome" : "Alberto Fraga",
 		"url-img": "img/JoãoAlbertoFragaSilva.jpg",
 		"url-img-partido" : "img/DEM.jpg",
 		"cargo" : "Deputado Federal",
@@ -33,7 +33,7 @@
 		"votos" : 56565
 	},
 	{
-		"nome" : "Laerte Rodrigues de Bessa (Laerte Bessa)",
+		"nome" : "Laerte Bessa",
 		"url-img": "img/LaerteRodriguesdeBessa.jpg",
 		"url-img-partido" : "img/PR.jpg",
 		"cargo" : "Deputado Federal",
@@ -44,7 +44,7 @@
 		"votos" : 0
 	},
 	{
-		"nome" : "Rogério Schumann Rosso (Rogério Rosso)",
+		"nome" : "Rogério Rosso",
 		"url-img": "img/RogérioSchumannRosso.jpg",
 		"url-img-partido" : "img/PSD.jpg",
 		"cargo" : "Deputado Federal",
@@ -55,7 +55,7 @@
 		"votos" : 67665
 	},
 	{
-		"nome" : "Rôney Tanios Nemer (Rôney Nemer)",
+		"nome" : "Rôney Nemer",
 		"url-img": "img/RôneyTaniosNemer.jpg",
 		"url-img-partido" : "img/PP.jpg",
 		"cargo" : "Deputado Federal",
@@ -66,7 +66,7 @@
 		"votos" : 67478
 	},
 	{
-		"nome" : "Augusto Silveira De Carvalho (Augusto Carvalho)",
+		"nome" : "(Augusto Carvalho",
 		"url-img": "img/AugustoSilveiraDeCarvalho.jpg",
 		"url-img-partido" : "img/SDD.jpg",
 		"cargo" : "Deputado Federal",
@@ -77,7 +77,7 @@
 		"votos" : 34578
 	},
 	{
-		"nome" : "Erika Jucá Kokay (Erika Kokay)",
+		"nome" : "Erika Kokay",
 		"url-img": "img/ErikaJucáKokay.jpg",
 		"url-img-partido" : "img/PT.jpg",
 		"cargo" : "Deputado Federal",
