@@ -1,20 +1,82 @@
 [
+		{
+		"nome" : "Ronaldo Fonseca de Souza (Ronaldo Fonseca)",
+		"url-img": "img/RonaldoFonsecadeSouza.jpg",
+		"partido" : "Federal - PROS",
+		"presenca" : 36,
+		"privilegio" : 24,
+		"participacao" : 0,
+		"processo" : 0,
+		"votos" : 0
+	},
 	{
-		"nome": "Fabio Fernandes de Sousa (Fábio Sousa)",
-		"url-img": "",
-		"partido": "PSDB",
-		"presenca": 0,
-		"privilegio": 36,
-		"participacao": 1,
-		"processo": 0
-	}, 
+		"nome" : "Izalci Lucas Ferreira (Izalci)",
+		"url-img": "img/IzalciLucasFerreira.jpg",
+		"partido" : "Deputado Federal - PSDB",
+		"presenca" : 36,
+		"privilegio" : 12,
+		"participacao" : 0,
+		"processo" : 0,
+		"votos" : 0
+	},
 	{
-		"nome": "Eduardo Nantes Bolsonaro (Eduardo Bolsonaro)",
-		"url-img": "",
-		"partido": "PSC",
-		"presenca": "26",
-		"privilegio": "12",
-		"participacao": "5",
-		"processo": "0"
-	} 
+		"nome" : "João Alberto Fraga Silva (Alberto Fraga)",
+		"url-img": "img/JoãoAlbertoFragaSilva.jpg",
+		"partido" : "Deputado Federal - DEM",
+		"presenca" : 16,
+		"privilegio" : 12,
+		"participacao" : 0,
+		"processo" : 0,
+		"votos" : 0
+	},
+	{
+		"nome" : "Laerte Rodrigues de Bessa (Laerte Bessa)",
+		"url-img": "img/LaerteRodriguesdeBessa.jpg",
+		"partido" : "Deputado Federal - PR",
+		"presenca" : -28,
+		"privilegio" : 12,
+		"participacao" : 0,
+		"processo" : 0,
+		"votos" : 0
+	},
+	{
+		"nome" : "Rogério Schumann Rosso (Rogério Rosso)",
+		"url-img": "img/RogérioSchumannRosso.jpg",
+		"partido" : "Deputado Federal - PSD",
+		"presenca" : -58,
+		"privilegio" : 30,
+		"participacao" : 0,
+		"processo" : 0,
+		"votos" : 0
+	},
+	{
+		"nome" : "Rôney Tanios Nemer (Rôney Nemer)",
+		"url-img": "img/RôneyTaniosNemer.jpg",
+		"partido" : "Deputado Federal - PP",
+		"presenca" : 28,
+		"privilegio" : 15,
+		"participacao" : 0,
+		"processo" : 0,
+		"votos" : 0
+	},
+	{
+		"nome" : "Augusto Silveira De Carvalho (Augusto Carvalho)",
+		"url-img": "img/AugustoSilveiraDeCarvalho.jpg",
+		"partido" : "Deputado Federal - SDD",
+		"presenca" : 22,
+		"privilegio" : 12,
+		"participacao" : 0,
+		"processo" : 0,
+		"votos" : 0
+	},
+	{
+		"nome" : "Erika Jucá Kokay (Erika Kokay)",
+		"url-img": "img/ErikaJucáKokay.jpg",
+		"partido" : "Deputado Federal - PT",
+		"presenca" : 36,
+		"privilegio" : 33,
+		"participacao" : 0,
+		"processo" : 0,
+		"votos" : 0
+	}
 ]
