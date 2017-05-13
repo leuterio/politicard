@@ -5,18 +5,23 @@
 
 body {
     /*overflow: hidden;*/
+    background: #3cb371;
+}
+
+@media screen and (min-width: 1360px) {
+    body {
+        
+    }
 }
 
 #arena {
-    background: #3cb371;
     width: 100%;
     height: 100%;
-    
     overflow: hidden;
 }
 
 .battlefield-box {
-    padding-top: 12em; 
+    padding-top: 14em; 
     text-align: center;
 }
 
@@ -28,19 +33,33 @@ body {
 
 #battlefield div {
     display: inline-block;
+    margin: 0.2em;
 }
 
 .bat-frame {
-    height: 37.5em;
+    position: relative;
+    height: 38em;
     width: 25em;
     border: 1em dotted #fff;
 }
 
+.bat-frame .card{
+    position: absolute;
+    top: -0.75em;
+    left: -0.75em;
+    
+    height: 38em;
+}
+
 .bat-vs {
+    position: relative;
+    top: -2.5em;
+    display: block;
     font-size: 6em;
     color: #fff;
     
     line-height: 5em;
+    margin 0px;
 }
 
 .card-turned {
@@ -48,7 +67,6 @@ body {
     
     width: 22em;
     height: 28em;
-    
     
     background-image: url("../img/logo_fundosem.png");
     background-repeat: no-repeat;
@@ -58,7 +76,10 @@ body {
 }
 
 .deck .card-turned {
-    bottom: 0em;
+    width: 10em;
+    height: 10em;
+    
+    bottom: 6em;
     left: 4em;
     -ms-transform: rotate(90deg); /* IE 9 */
     -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
@@ -73,7 +94,7 @@ body {
     text-align: center;
 }
 
-.opponent .card-turned{
+.opponent .card-turned {
     display: inline-block;
     position: relative;
     top: -18em;
@@ -102,5 +123,15 @@ body {
 
 #hand .card:hover {
     bottom: 13.5em;
+}
+
+@media screen and (max-width: 1366px) {
+    #hand {
+        bottom: -32.3em;
+    }
+    
+    #hand .card:hover {
+        bottom: 32.3em;
+    }
 }
 
