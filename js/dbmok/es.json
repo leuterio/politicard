@@ -1,6 +1,6 @@
 [
 	{
-		"nome" : "Carlos Humberto Mannato (Carlos Manato)",
+		"nome" : "Carlos Manato",
 		"url-img": "img/CarlosHumbertoMannato.jpg",
 		"url-img-partido" : "img/SDD.jpg",
 		"cargo" : "Deputado Federal",
@@ -11,7 +11,7 @@
 		"votos" : 67631
 	},
 	{
-		"nome" : "Evair Vieira de Melo (Evair de Melo)",
+		"nome" : "Evair de Melo",
 		"url-img": "img/EvairVieiradeMelo.jpg",
 		"url-img-partido" : "img/PV.jpg",
 		"cargo" : "Deputado Federal",
@@ -22,7 +22,7 @@
 		"votos" : 63636
 	},
 	{
-		"nome" : "Paulo Roberto Foletto (Paulo Foletto)",
+		"nome" : "Paulo Foletto",
 		"url-img": "img/PauloRobertoFoletto.jpg",
 		"url-img-partido" : "img/PSB.jpg",
 		"cargo" : "Deputado Federal",
@@ -33,7 +33,7 @@
 		"votos" : 56565
 	},
 	{
-		"nome" : "Welington Coimbra (Lelo Coimbra)",
+		"nome" : "Lelo Coimbra",
 		"url-img": "img/WelingtonCoimbra.jpg",
 		"url-img-partido" : "img/PMDB.jpg",
 		"cargo" : "Deputado Federal",
@@ -44,7 +44,7 @@
 		"votos" : 105458
 	},
 	{
-		"nome" : "Jorge Silva (Dr. Jorge Silva)",
+		"nome" : "Dr. Jorge Silva",
 		"url-img": "img/JorgeSilva.jpg",
 		"url-img-partido" : "img/PHS.jpg",
 		"cargo" : "Deputado Federal",
@@ -55,7 +55,7 @@
 		"votos" : 67262
 	},
 	{
-		"nome" : "Marcus Antonio Vicente (Marcus Vicente)",
+		"nome" : "Marcus Vicente",
 		"url-img": "img/MarcusAntonioVicente.jpg",
 		"url-img-partido" : "img/PP.jpg",
 		"cargo" : "Deputado Federal",
@@ -66,7 +66,7 @@
 		"votos" : 56565
 	},
 	{
-		"nome" : "Norma Ayub Alves (NORMA AYUB)",
+		"nome" : "NORMA AYUB",
 		"url-img": "img/NormaAyubAlves.jpg",
 		"url-img-partido" : "img/DEM.jpg",
 		"cargo" : "Deputado Federal",
@@ -77,7 +77,7 @@
 		"votos" : 35655
 	},
 	{
-		"nome" : "Max Freitas Mauro Filho (Max Filho)",
+		"nome" : "Max Filho",
 		"url-img": "img/MaxFreitasMauroFilho.jpg",
 		"url-img-partido" : "img/PSDB.jpg",
 		"cargo" : "Deputado Federal",
@@ -88,7 +88,7 @@
 		"votos" : 65656
 	},
 	{
-		"nome" : "Antonio Sergio Alves Vidigal (Sergio Vidigal)",
+		"nome" : "Sergio Vidigal",
 		"url-img": "img/AntonioSergioAlvesVidigal.jpg",
 		"url-img-partido" : "img/PDT.jpg",
 		"cargo" : "Deputado Federal",
@@ -99,7 +99,7 @@
 		"votos" : 65434
 	},
 	{
-		"nome" : "Givaldo Vieira da Silva (Givaldo Vieira)",
+		"nome" : "Givaldo Vieira",
 		"url-img": "img/GivaldoVieiradaSilva.jpg",
 		"url-img-partido" : "img/PT.jpg",
 		"cargo" : "Deputado Federal",
@@ -110,7 +110,7 @@
 		"votos" : 56576
 	},
 	{
-		"nome" : "Helder Ignacio Salomão (Helder Salomão)",
+		"nome" : "Helder Salomão",
 		"url-img": "img/HelderIgnacioSalomão.jpg",
 		"url-img-partido" : "img/PT.jpg",
 		"cargo" : "Deputado Federal",

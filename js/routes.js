@@ -1,19 +1,36 @@
-app.config(function($stateProvider, $urlRouterProvider) {
+(function () {
+    'use strict';
 
-    $urlRouterProvider.otherwise('/home');
+    angular.module('politicard').config(function ($stateProvider, $urlRouterProvider) {
 
-    $stateProvider
+        $urlRouterProvider.otherwise('/splashscreen');
 
-        // HOME STATES AND NESTED VIEWS ========================================
-        .state('home', {
-            url: '/home',
-            templateUrl: '../templates/partial-home.html'
-        })
+        $stateProvider
 
-        // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
-        .state('about', {
-            url: '/home2',
-            templateUrl: '../templates/partial-home2.html'    
-        });
+            // SplashScreen PAGE AND NESTED VIEWS ========================================
+            .state('splashscreen', {
+                url: '/splashscreen',
+                templateUrl: '../templates/splashscreen.html',
+                controller: function ($state) {
+                    debugger;
+                    setTimeout(function () {
+                        $state.go('menu');
+                    }, 500);
+                }
+            })
 
-});
+            // Menu PAGE AND MULTIPLE NAMED VIEWS =================================
+            .state('menu', {
+                url: '/menu',
+                templateUrl: '../templates/menu.html',
+                controller: 'MenuController'
+            })
+
+            // Menu PAGE AND MULTIPLE NAMED VIEWS =================================
+            .state('arena', {
+                url: '/arena',
+                templateUrl: '../templates/arena.html'
+            });
+
+    });
+})();
