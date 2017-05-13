@@ -1,19 +1,31 @@
 app.config(function($stateProvider, $urlRouterProvider) {
 
-    $urlRouterProvider.otherwise('/home');
+    $urlRouterProvider.otherwise('/splashscreen');
 
     $stateProvider
 
-        // HOME STATES AND NESTED VIEWS ========================================
-        .state('home', {
-            url: '/home',
-            templateUrl: '../templates/partial-home.html'
+        // SplashScreen PAGE AND NESTED VIEWS ========================================
+        .state('splashscreen', {
+            url: '/splashscreen',
+            templateUrl: '../templates/splashscreen.html',
+            controller: function($state){
+                setTimeout(function() {
+                    $state.go('menu');
+                }, 500);
+            }
         })
 
-        // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
-        .state('about', {
-            url: '/home2',
-            templateUrl: '../templates/partial-home2.html'    
+        // Menu PAGE AND MULTIPLE NAMED VIEWS =================================
+        .state('menu', {
+            url: '/menu',
+            templateUrl: '../templates/menu.html',
+            controller: 'MenuController' 
+        })
+        
+        // Menu PAGE AND MULTIPLE NAMED VIEWS =================================
+        .state('arena', {
+            url: '/arena',
+            templateUrl: '../templates/arena.html'    
         });
 
 });
