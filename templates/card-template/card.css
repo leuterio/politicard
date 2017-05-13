@@ -1,11 +1,17 @@
 .card {
+    display: inline-block;
+    position: relative;
+    
+    text-align: left;
+    
     width: 25em;
+    height: 37.5em;
     background: #db3042;
     -webkit-box-shadow: 0.3em 0.3em 1.8em 0em rgba(0,0,0,0.75);
     -moz-box-shadow: 0.3em 0.3em 1.8em 0em rgba(0,0,0,0.75);
     box-shadow: 0.4em 0.4em 1.8em 0em rgba(0,0,0,0.75);
     
-    padding: 1em 1em;
+    padding: 1em 0em 1em 1em;
     color: #fff;
 }
 
@@ -56,7 +62,7 @@
 
 .card-attr-box div {
     width: calc(100% - 1em);
-    padding: 1em 0em 1em 0em;
+    padding: 0.5em 0em 0em 0em;
     border: 0.5em solid #c0c0c0;
     border-top: none;
     cursor: pointer;
