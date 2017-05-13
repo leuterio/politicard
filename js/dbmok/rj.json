@@ -2,7 +2,9 @@
 	{
 		"nome": "Eduardo Nantes Bolsonaro (Eduardo Bolsonaro)",
 		"url-img": "img/JairBolsonaro.jpg",
+		"url-img-partido": "img/PSC.jpg",
 		"partido": "PSC",
+		"cargo": "Deputado Federal",
 		"presenca": 93.10,
 		"privilegio": 692273.20,
 		"participacao": 5,
@@ -12,7 +14,9 @@
 	{
 		"nome": "Jean Wyllys de Matos Santos (Jean Wyllys)",
 		"url-img": "img/JeanWyllys.jpg",
+		"url-img-partido": "img/PSOL.jpg",
 		"partido": "PSOL",
+		"cargo": "Deputado Federal",
 		"presenca": 85,
 		"privilegio": 549614.19,
 		"participacao": 10,
@@ -22,7 +26,9 @@
 	{
 		"nome": "Benedita Souza da Silva Sampaio (Benedita da Silva)",
 		"url-img": "img/BeneditaDaSilva.jpg",
+		"url-img-partido": "img/PT.jpg",
 		"partido": "PT",
+		"cargo": "Deputado Federal",
 		"presenca": 81.04,
 		"privilegio": 701896.89,
 		"participacao": 0,

@@ -2,7 +2,9 @@
 	{
 		"nome": "Eduardo Nantes Bolsonaro (Eduardo Bolsonaro)",
 		"url-img": "img/EduardoBolsonaro.jpg",
+		"url-img-partido": "img/PSC.jpg",
 		"partido": "PSC",
+		"cargo": "Deputado Federal",
 		"presenca": 95.66,
 		"privilegio": 728179.62,
 		"participacao": 0,
@@ -12,7 +14,9 @@
 	{
 		"nome": "Francisco Everardo Oliveira Silva (Tiririca)",
 		"url-img": "img/Tiririca.jpg",
+		"url-img-partido": "img/PR.jpg",
 		"partido": "PR",
+		"cargo": "Deputado Federal",
 		"presenca": 99.62,
 		"privilegio": 326193.75,
 		"participacao": 30,
@@ -22,7 +26,9 @@
 	{
 		"nome": "Paulo Salim Maluf (Paulo Maluf)",
 		"url-img": "img/PauloMaluf.jpg",
+		"url-img-partido": "img/PP.jpg",
 		"partido": "PP",
+		"cargo": "Deputado Federal",
 		"presenca": 41,
 		"privilegio": 1441501.58,
 		"participacao": 5,
@@ -32,7 +38,9 @@
 	{
 		"nome": "Andres Navarro Sanchez (Andres Sanchez)",
 		"url-img": "img/AndresSanchez.jpg",
+		"url-img-partido": "img/PT.jpg",
 		"partido": "PT",
+		"cargo": "Deputado Federal",
 		"presenca": 96.42,
 		"privilegio": 594502.47,
 		"participacao": 6,
@@ -42,7 +50,9 @@
 	{
 		"nome": "Paulo Roberto Gomes Mansur (Beto Mansur)",
 		"url-img": "img/BetoMansur.jpg",
+		"url-img-partido": "img/PRB.jpg",
 		"partido": "PRB",
+		"cargo": "Deputado Federal",
 		"presenca": 90.35,
 		"privilegio": 711915.05,
 		"participacao": 4,
