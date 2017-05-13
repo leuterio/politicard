@@ -30,6 +30,11 @@ angular.module('politicard').config(function($stateProvider, $urlRouterProvider)
             controller: 'ArenaController'
         })
     
+        .state('instrucao', {
+            url: '/instrucao',
+            templateUrl: '../templates/instrucao.html',
+        })
+    
         .state('creditos', {
             url: '/creditos',
             templateUrl: '../templates/creditos.html',
