@@ -31,4 +31,5 @@
 
 .page-content{
    height: 100%;
+   display: inline;
 }
