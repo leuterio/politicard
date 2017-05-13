@@ -2,7 +2,8 @@
 		{
 		"nome" : "Ronaldo Fonseca de Souza (Ronaldo Fonseca)",
 		"url-img": "img/RonaldoFonsecadeSouza.jpg",
-		"partido" : "Federal - PROS",
+		"url-img-partido" : "img/PROS.jpg",
+		"cargo" : "Deputado Federal",
 		"presenca" : 98.37,
 		"privilegio" : 557304.98,
 		"participacao" : 0,
@@ -12,7 +13,8 @@
 	{
 		"nome" : "Izalci Lucas Ferreira (Izalci)",
 		"url-img": "img/IzalciLucasFerreira.jpg",
-		"partido" : "Deputado Federal - PSDB",
+		"url-img-partido" : "img/PSDB.jpg",
+		"cargo" : "Deputado Federal",
 		"presenca" : 98.62,
 		"privilegio" : 737832.88,
 		"participacao" : 0,
@@ -22,7 +24,8 @@
 	{
 		"nome" : "João Alberto Fraga Silva (Alberto Fraga)",
 		"url-img": "img/JoãoAlbertoFragaSilva.jpg",
-		"partido" : "Deputado Federal - DEM",
+		"url-img-partido" : "img/DEM.jpg",
+		"cargo" : "Deputado Federal",
 		"presenca" : 92.78,
 		"privilegio" : 723699.75,
 		"participacao" : 0,
@@ -32,7 +35,8 @@
 	{
 		"nome" : "Laerte Rodrigues de Bessa (Laerte Bessa)",
 		"url-img": "img/LaerteRodriguesdeBessa.jpg",
-		"partido" : "Deputado Federal - PR",
+		"url-img-partido" : "img/PR.jpg",
+		"cargo" : "Deputado Federal",
 		"presenca" : -28,
 		"privilegio" : 12,
 		"participacao" : 0,
@@ -42,7 +46,8 @@
 	{
 		"nome" : "Rogério Schumann Rosso (Rogério Rosso)",
 		"url-img": "img/RogérioSchumannRosso.jpg",
-		"partido" : "Deputado Federal - PSD",
+		"url-img-partido" : "img/PSD.jpg",
+		"cargo" : "Deputado Federal",
 		"presenca" : 73.78,
 		"privilegio" : 724905.95,
 		"participacao" : 0,
@@ -52,7 +57,8 @@
 	{
 		"nome" : "Rôney Tanios Nemer (Rôney Nemer)",
 		"url-img": "img/RôneyTaniosNemer.jpg",
-		"partido" : "Deputado Federal - PP",
+		"url-img-partido" : "img/PP.jpg",
+		"cargo" : "Deputado Federal",
 		"presenca" : 96.09,
 		"privilegio" : 672678.67,
 		"participacao" : 0,
@@ -62,7 +68,8 @@
 	{
 		"nome" : "Augusto Silveira De Carvalho (Augusto Carvalho)",
 		"url-img": "img/AugustoSilveiraDeCarvalho.jpg",
-		"partido" : "Deputado Federal - SDD",
+		"url-img-partido" : "img/SDD.jpg",
+		"cargo" : "Deputado Federal",
 		"presenca" : 93.56,
 		"privilegio" : 12,
 		"participacao" : 0,
@@ -72,7 +79,8 @@
 	{
 		"nome" : "Erika Jucá Kokay (Erika Kokay)",
 		"url-img": "img/ErikaJucáKokay.jpg",
-		"partido" : "Deputado Federal - PT",
+		"url-img-partido" : "img/PT.jpg",
+		"cargo" : "Deputado Federal",
 		"presenca" : 98.76,
 		"privilegio" : 387892.85,
 		"participacao" : 0,

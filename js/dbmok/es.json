@@ -2,7 +2,8 @@
 	{
 		"nome" : "Carlos Humberto Mannato (Carlos Manato)",
 		"url-img": "img/CarlosHumbertoMannato.jpg",
-		"partido" : "Deputado Federal - SDD",
+		"url-img-partido" : "img/SDD.jpg",
+		"cargo" : "Deputado Federal",
 		"presenca" : 86.13,
 		"privilegio" : 878558.89,
 		"participacao" : 0,
@@ -12,7 +13,8 @@
 	{
 		"nome" : "Evair Vieira de Melo (Evair de Melo)",
 		"url-img": "img/EvairVieiradeMelo.jpg",
-		"partido" : "Deputado Federal - PV",
+		"url-img-partido" : "img/PV.jpg",
+		"cargo" : "Deputado Federal",
 		"presenca":  97.40,
 		"privilegio" :  742672.23,
 		"participacao" :  0,
@@ -22,7 +24,8 @@
 	{
 		"nome" : "Paulo Roberto Foletto (Paulo Foletto)",
 		"url-img": "img/PauloRobertoFoletto.jpg",
-		"partido" : "Deputado Federal - PSB",
+		"url-img-partido" : "img/PSB.jpg",
+		"cargo" : "Deputado Federal",
 		"presenca":  90.71,
 		"privilegio" :  761211.29,
 		"participacao" : 0,
@@ -32,7 +35,8 @@
 	{
 		"nome" : "Welington Coimbra (Lelo Coimbra)",
 		"url-img": "img/WelingtonCoimbra.jpg",
-		"partido" : "Deputado Federal - PMDB",
+		"url-img-partido" : "img/PMDB.jpg",
+		"cargo" : "Deputado Federal",
 		"presenca": 84.98,
 		"privilegio" : 898331.94,
 		"participacao" :  0,
@@ -42,7 +46,8 @@
 	{
 		"nome" : "Jorge Silva (Dr. Jorge Silva)",
 		"url-img": "img/JorgeSilva.jpg",
-		"partido" : "Deputado Federal - PHS",
+		"url-img-partido" : "img/PHS.jpg",
+		"cargo" : "Deputado Federal",
 		"presenca":  86.99,
 		"privilegio" :  781478.31,
 		"participacao" :  0,
@@ -52,7 +57,8 @@
 	{
 		"nome" : "Marcus Antonio Vicente (Marcus Vicente)",
 		"url-img": "img/MarcusAntonioVicente.jpg",
-		"partido" : "Deputado Federal - PP",
+		"url-img-partido" : "img/PP.jpg",
+		"cargo" : "Deputado Federal",
 		"presenca": 83.81,
 		"privilegio" : 755294.09,
 		"participacao" : 0,
@@ -62,7 +68,8 @@
 	{
 		"nome" : "Norma Ayub Alves (NORMA AYUB)",
 		"url-img": "img/NormaAyubAlves.jpg",
-		"partido" : "Deputado Federal - DEM",
+		"url-img-partido" : "img/DEM.jpg",
+		"cargo" : "Deputado Federal",
 		"presenca":  87.54,
 		"privilegio" : 75777.08,
 		"participacao" :  0,
@@ -72,7 +79,8 @@
 	{
 		"nome" : "Max Freitas Mauro Filho (Max Filho)",
 		"url-img": "img/MaxFreitasMauroFilho.jpg",
-		"partido" : "Deputado Federal - PSDB",
+		"url-img-partido" : "img/PSDB.jpg",
+		"cargo" : "Deputado Federal",
 		"presenca":  89.31,
 		"privilegio" : 638870.51,
 		"participacao" : 0,
@@ -82,7 +90,8 @@
 	{
 		"nome" : "Antonio Sergio Alves Vidigal (Sergio Vidigal)",
 		"url-img": "img/AntonioSergioAlvesVidigal.jpg",
-		"partido" : "Deputado Federal - PDT",
+		"url-img-partido" : "img/PDT.jpg",
+		"cargo" : "Deputado Federal",
 		"presenca":  94.58,
 		"privilegio" : 717346.86,
 		"participacao" : 0,
@@ -92,7 +101,8 @@
 	{
 		"nome" : "Givaldo Vieira da Silva (Givaldo Vieira)",
 		"url-img": "img/GivaldoVieiradaSilva.jpg",
-		"partido" : "Deputado Federal - PT",
+		"url-img-partido" : "img/PT.jpg",
+		"cargo" : "Deputado Federal",
 		"presenca":  89.89,
 		"privilegio" :  788238.30,
 		"participacao" :  0,
@@ -102,7 +112,8 @@
 	{
 		"nome" : "Helder Ignacio Salomão (Helder Salomão)",
 		"url-img": "img/HelderIgnacioSalomão.jpg",
-		"partido" : "Deputado Federal - PT",
+		"url-img-partido" : "img/PT.jpg",
+		"cargo" : "Deputado Federal",
 		"presenca":  93.56,
 		"privilegio" :  730116.88,
 		"participacao" :  0,
