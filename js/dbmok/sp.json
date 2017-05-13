@@ -1,6 +1,6 @@
 [ 
 	{
-		"nome": "Eduardo Nantes Bolsonaro (Eduardo Bolsonaro)",
+		"nome": "Eduardo Bolsonaro",
 		"url-img": "img/EduardoBolsonaro.jpg",
 		"url-img-partido": "img/PSC.jpg",
 		"partido": "PSC",
@@ -12,7 +12,7 @@
 		"votos": 82224
 	},
 	{
-		"nome": "Francisco Everardo Oliveira Silva (Tiririca)",
+		"nome": "Tiririca",
 		"url-img": "img/Tiririca.jpg",
 		"url-img-partido": "img/PR.jpg",
 		"partido": "PR",
@@ -24,7 +24,7 @@
 		"votos": 1353820
 	},
 	{
-		"nome": "Paulo Salim Maluf (Paulo Maluf)",
+		"nome": "Paulo Maluf",
 		"url-img": "img/PauloMaluf.jpg",
 		"url-img-partido": "img/PP.jpg",
 		"partido": "PP",
@@ -36,7 +36,7 @@
 		"votos": 497203
 	},
 	{
-		"nome": "Andres Navarro Sanchez (Andres Sanchez)",
+		"nome": "Andres Sanchez",
 		"url-img": "img/AndresSanchez.jpg",
 		"url-img-partido": "img/PT.jpg",
 		"partido": "PT",
@@ -48,7 +48,7 @@
 		"votos": 101203
 	},
 	{
-		"nome": "Paulo Roberto Gomes Mansur (Beto Mansur)",
+		"nome": "Beto Mansur",
 		"url-img": "img/BetoMansur.jpg",
 		"url-img-partido": "img/PRB.jpg",
 		"partido": "PRB",
