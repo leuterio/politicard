@@ -3,22 +3,9 @@
 
     angular.module('politicard').config(function ($stateProvider, $urlRouterProvider) {
 
-        $urlRouterProvider.otherwise('/splashscreen');
+        $urlRouterProvider.otherwise('/menu');
 
         $stateProvider
-
-            // SplashScreen PAGE AND NESTED VIEWS ========================================
-            .state('splashscreen', {
-                url: '/splashscreen',
-                templateUrl: '../templates/splashscreen.html',
-                controller: function ($state) {
-                    debugger;
-                    setTimeout(function () {
-                        $state.go('menu');
-                    }, 500);
-                }
-            })
-
             // Menu PAGE AND MULTIPLE NAMED VIEWS =================================
             .state('menu', {
                 url: '/menu',
