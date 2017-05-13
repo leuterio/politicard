@@ -1,48 +1,23 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-
-    <!-- CSS (load bootstrap) -->
-<!--    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">-->
+  <head>
     <link rel="stylesheet" href="/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
     <style>
-        .navbar { border-radius:0; }
+        .navbar { border-radius:0; };
+        html,body{height:100% !important}
     </style>
-
-    <!-- JS (load angular, ui-router, and our custom js file) -->
-<!--    <script src="http://code.angularjs.org/1.2.13/angular.js"></script>-->
-<!--    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>-->
     <script src="lib/angular.js"></script>
     <script src="lib/angular-ui-router.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/arena.js"></script>
     <script src="js/galeria.js"></script>
-</head>
-
-<!-- apply our angular app to our site -->
-<body ng-app="politicard">
-
-<!-- NAVIGATION -->
-<nav class="navbar navbar-inverse" role="navigation">
-    <div class="navbar-header">
-        <a class="navbar-brand" ui-sref="menu">Politicard</a>
+  </head>
+  <body ng-app="politicard" class="index">
+    <div class="page-injector-content fundo">
+        <div ui-view></div>
     </div>
-    <ul class="nav navbar-nav">
-        <li><a ui-sref="creditos">Creditos</a></li>
-        <li><a ui-sref="galeria">Galeria</a></li>
-    </ul>
-</nav>
-
-<!-- MAIN CONTENT -->
-<!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
-<div class="container">
-    <div ui-view></div>
-</div>
-
-</body>
-
+  </body>
 </html>

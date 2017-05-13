@@ -1,5 +1,65 @@
 [
 	{
+		"nome": "Aecio Neves",
+		"url-img": "img/AecioNeves.jpg",
+		"url-img-partido": "img/PSDB.jpg",
+		"partido": "PSDB",
+		"cargo": "Senador Federal",
+		"presenca": 90.14,
+		"privilegio": 604460.76,
+		"participacao": 0,
+		"processo": 5, 
+		"votos": 7565377
+	},
+	{
+		"nome": "Magno Malta",
+		"url-img": "img/MagnoMalta.jpg",
+		"url-img-partido": "img/PR.jpg",
+		"partido": "PR",
+		"cargo": "Senador Federal",
+		"presenca": 67.54,
+		"privilegio": 818533.61,
+		"participacao": 0,
+		"processo": 2, 
+		"votos": 1285177
+	},
+	{
+		"nome": "Romário",
+		"url-img": "img/Romario.jpg",
+		"url-img-partido": "img/PSB.jpg",
+		"partido": "PSB",
+		"cargo": "Senador Federal",
+		"presenca": 97.68,
+		"privilegio": 688627.05,
+		"participacao": 2,
+		"processo": 2, 
+		"votos": 146859
+	},
+	{
+		"nome": "Ricardo Ferraço",
+		"url-img": "img/RicardoFerraco.jpg",
+		"url-img-partido": "img/PSDB.jpg",
+		"partido": "PSDB",
+		"cargo": "Senador Federal",
+		"presenca": 87.25,
+		"privilegio": 617051.88,
+		"participacao": 0,
+		"processo": 0, 
+		"votos": 1557409
+	},
+	{
+		"nome": "Rose de Freitas",
+		"url-img": "img/RoseFreitas.jpg",
+		"url-img-partido": "img/PMDB.jpg",
+		"partido": "PMDB",
+		"cargo": "Senador Federal",
+		"presenca": 82.61,
+		"privilegio": 698660.98,
+		"participacao": 0,
+		"processo": 0, 
+		"votos": 96454
+	},
+	{
 		"nome" : "Ronaldo Fonseca",
 		"url-img": "img/RonaldoFonsecadeSouza.jpg",
 		"url-img-partido" : "img/PROS.jpg",
@@ -37,7 +97,7 @@
 		"url-img": "img/LaerteRodriguesdeBessa.jpg",
 		"url-img-partido" : "img/PR.jpg",
 		"cargo" : "Deputado Federal",
-		"presenca" : -28,
+		"presenca" : 73.78,
 		"privilegio" : 12,
 		"participacao" : 0,
 		"processo" : 0,
@@ -78,7 +138,7 @@
 	},
 	{
 		"nome" : "Erika Kokay",
-		"url-img": "img/ErikaJucáKokay.jpg",
+		"url-img": "img/ErikaKokay.jpg",
 		"url-img-partido" : "img/PT.jpg",
 		"cargo" : "Deputado Federal",
 		"presenca" : 98.76,

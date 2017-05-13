@@ -1,7 +1,3 @@
-.fundo {
-    background-color: #c3d4eb;
-}
-
 .titulo {
     color: floralwhite;
     font-family: Century Gothic;
@@ -23,7 +19,7 @@
     font-weight: bold;
 }
 
-.container{
+.container-buttons{
     margin-top: 4em;
 }
 
@@ -34,5 +30,5 @@
 }
 
 .page-content{
-     min-width: 17em;   
+   height: 100%;
 }
