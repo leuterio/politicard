@@ -85,6 +85,7 @@
             let r = Math.random() * $scope.deck.length - 1;
             let carta = $scope.deck.splice(r, 1);
             $scope.cartaInimigo = carta[0];
+            playAudio();
         }
 
         function realizarBatalha(atributo) {
@@ -112,22 +113,20 @@
 
         function batalhar(cartaUsuario, atributo) {
             playAudio();
-            if (atributo && $scope.atributoAtivo == '') {
-                $scope.atributoAtivo = atributo;
-            } else {
-                $scope.atributoAtivo = _atributos[Math.round(Math.random() * _atributos.length - 1)];
-            }
-
             if (!cartaUsuario) {
                 return;
             }
-
+            
             let index = $scope.hand.indexOf(cartaUsuario);
             if (index > -1) {
                 let carta = $scope.hand.splice(index, 1);
                 $scope.cartaSelecionadaUsuario = carta[0];
             } else {
                 $scope.cartaSelecionadaUsuario = cartaUsuario;
+            }
+            
+            if (atributo && $scope.atributoAtivo == '') {
+                $scope.atributoAtivo = atributo;
             }
 
             if (!$scope.cartaInimigo) {
@@ -165,7 +164,7 @@
                 if (_ganhouRodada == 'inimigo') {
                     $timeout(function () {
                         selecionarCartaInimigo();
-                        batalhar($scope.cartaSelecionadaUsuario);
+                        $scope.atributoAtivo = _atributos[Math.round(Math.random() * _atributos.length - 1)];
                     }, 2000);
                 }
 
