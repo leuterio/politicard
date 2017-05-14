@@ -65,7 +65,6 @@
     padding: 0.5em 0em 0em 0em;
     border: 0.3em solid #c0c0c0;
     border-top: none;
-    cursor: pointer;
     
     background: #fff;
     color: #000;
@@ -77,11 +76,6 @@
 
 .card-attr-box div:first-child {
     border: 0.3em solid #c0c0c0;
-}
-
-.card-attr-box div:hover {
-    background-color: #618CA7;
-    color: #fff;
 }
 
 .card-attr-box div label {
