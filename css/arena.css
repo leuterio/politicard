@@ -19,7 +19,8 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: #3cb371 !important;
+    background-image: url("../img/background-arena.jpg");
+    background-repeat: repeat-y, repeat -x;
 }
 
 .battlefield-box {
