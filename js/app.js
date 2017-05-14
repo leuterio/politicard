@@ -48,6 +48,14 @@ angular.module('politicard').config(function($stateProvider, $urlRouterProvider)
             templateUrl: '../templates/galeria.html',
             controller: 'GaleriaController',
             controllerAs: "vm"
+        })
+        
+        .state('resultado', {
+            url: '/resultado/:resultado',
+            templateUrl: '../templates/resultado.html',
+            controller: function($scope, $stateParams) {
+                $scope.resultado = $stateParams.resultado;
+            }
         });
     
         

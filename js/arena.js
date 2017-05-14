@@ -5,8 +5,8 @@
         .module('politicard')
         .controller('ArenaController', ArenaController);
 
-    ArenaController.inject = ['$scope', 'ArenaService', '$timeout'];
-    function ArenaController($scope, ArenaService, $timeout) {
+    ArenaController.inject = ['$scope', 'ArenaService', '$timeout', '$state'];
+    function ArenaController($scope, ArenaService, $timeout, $state) {
 
         var _politicos = [];
         var _atributos = ["presenca", "privilegio", "processo", "votos"];
@@ -25,11 +25,17 @@
 
         $scope.getAtributoAtivo = getAtributoAtivo;
         $scope.batalhar = batalhar;
+        $scope.playAudio = playAudio;
 
 
         activate();
 
         ////////////////
+        function playAudio() {
+            var audio = new Audio('sounds/clickSound.mp3');
+            audio.play();
+        };
+
         function getAtributoAtivo(attr) {
             return ($scope.atributoAtivo == attr);
         }
@@ -87,26 +93,26 @@
                 //usuario ganhou
                 _ganhouRodada = 'usuario';
                 $scope.hand.push(JSON.parse(JSON.stringify($scope.cartaSelecionadaUsuario)));
-                $scope.cartaInimigo = null;
-                $scope.cartaSelecionadaUsuario = null;
+                var audio = new Audio('sounds/win.mp3');
+                audio.play();
 
             } else if (parseFloat($scope.cartaSelecionadaUsuario[atributo]) < parseFloat($scope.cartaInimigo[atributo])) {
                 //inimigo ganhou
                 _ganhouRodada = 'inimigo';
                 $scope.deck.push(JSON.parse(JSON.stringify($scope.cartaInimigo)));
-                $scope.cartaInimigo = null;
-                $scope.cartaSelecionadaUsuario = null;
-            } else {
-                //empate
-                $scope.cartaInimigo = null;
-                $scope.cartaSelecionadaUsuario = null;
+                var audio = new Audio('sounds/lose.mp3');
+                audio.play();
             }
+            $scope.cartaInimigo = null;
+            $scope.cartaSelecionadaUsuario = null;
+            $scope.atributoAtivo = '';
 
             verificaVencedor();
         }
 
         function batalhar(cartaUsuario, atributo) {
-            if (atributo) {
+            playAudio();
+            if (atributo && $scope.atributoAtivo == '') {
                 $scope.atributoAtivo = atributo;
             } else {
                 $scope.atributoAtivo = _atributos[Math.round(Math.random() * _atributos.length - 1)];
@@ -140,15 +146,19 @@
                 if ($scope.hand.length > 0) {
                     //usuario ganhou
                     console.log("ganhou");
+                    $state.go('resultado', { 'resultado': 'Você Ganhou!' });
+                    return;
 
                 } else if ($scope.deck.length > 0) {
                     //inimigo ganhou
                     console.log("perdeu");
-
+                    $state.go('resultado', { 'resultado': 'Você Perdeu!' });
+                    return;
                 } else {
                     //empate
                     console.log("empate");
-
+                    $state.go('resultado', { resultado: 'Acabou em Empate!' });
+                    return;
                 }
 
             } else {
