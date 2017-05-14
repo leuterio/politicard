@@ -1,4 +1,15 @@
+<style>
+    .ativo{
+        background: #618CA7 !important;
+    }
+</style>
 <div id="arena" style="position:relative">
+
+    <div style="position:fixed; top:45px; left:45px; border: 4px solid white; border-radius:15px;width: 282px;height: 216px;padding: 15px;">
+        <h1>Total de Cartas<h1>
+        <h2>Suas: {{ hand.length }}<h2>
+        <h2>Adversário: {{ deck.length }}</h2>
+    </div>
 
     <div id="visual">
         <div class="battlefield-box">
@@ -17,16 +28,16 @@
                         <img class="card-info-img" ng-src="{{cartaSelecionadaUsuario['url-img']}}">
 
                         <div class="card-attr-box">
-                            <div class="card-attr-presenca">
+                            <div class="card-attr-presenca" ng-class="{'ativo': getAtributoAtivo('presenca')}">
                                 <label>Presença</label><span>{{cartaSelecionadaUsuario.presenca}} %</span>
                             </div>
-                            <div class="card-attr-privilegio">
+                            <div class="card-attr-privilegio" ng-class="{'ativo': getAtributoAtivo('privilegio')}">
                                 <label>Privilégios</label><span>{{cartaSelecionadaUsuario.privilegio | currency:'R$ '}}</span>
                             </div>
-                            <div class="card-attr-processos">
+                            <div class="card-attr-processos" ng-class="{'ativo': getAtributoAtivo('processo')}">
                                 <label>Processos</label><span>{{cartaSelecionadaUsuario.processo}}</span>
                             </div>
-                            <div class="card-attr-privilegio">
+                            <div class="card-attr-privilegio"  ng-class="{'ativo': getAtributoAtivo('votos')}">
                                 <label>Votos</label><span>{{cartaSelecionadaUsuario.votos}}</span>
                             </div>
                         </div>
@@ -48,16 +59,16 @@
                         <img class="card-info-img" ng-src="{{cartaInimigo['url-img']}}">
 
                         <div class="card-attr-box">
-                            <div class="card-attr-presenca">
+                            <div class="card-attr-presenca" ng-class="{'ativo': getAtributoAtivo('presenca')}">
                                 <label>Presença</label><span>{{cartaInimigo.presenca}} %</span>
                             </div>
-                            <div class="card-attr-privilegio">
+                            <div class="card-attr-privilegio" ng-class="{'ativo': getAtributoAtivo('privilegio')}">
                                 <label>Privilégios</label><span>{{cartaInimigo.privilegio | currency:'R$ '}}</span>
                             </div>
-                            <div class="card-attr-processos">
+                            <div class="card-attr-processos" ng-class="{'ativo': getAtributoAtivo('processo')}">
                                 <label>Processos</label><span>{{cartaInimigo.processo}}</span>
                             </div>
-                            <div class="card-attr-privilegio">
+                            <div class="card-attr-privilegio" ng-class="{'ativo': getAtributoAtivo('votos')}">
                                 <label>Votos</label><span>{{cartaInimigo.votos}}</span>
                             </div>
                         </div>

@@ -5,27 +5,38 @@
         .module('politicard')
         .controller('ArenaController', ArenaController);
 
-    ArenaController.inject = ['$scope', 'ArenaService','$timeout'];
+    ArenaController.inject = ['$scope', 'ArenaService', '$timeout'];
     function ArenaController($scope, ArenaService, $timeout) {
+
         var _politicos = [];
-        var atributos = ["presenca", "privilegio", "processo", "votos"];
-        $scope.maximoDeCartas = 10;
-        $scope.numeroDeCartasInimigo = 10;
+        var _atributos = ["presenca", "privilegio", "processo", "votos"];
+        var _ganhouRodada = '';
+
+        $scope.atributoAtivo = '';
+
+        $scope.maximoDeCartasUsuario = 10;
+        $scope.hand = [];
         $scope.cartaSelecionadaUsuario = null;
 
-        activate();
+
+        $scope.numeroDeCartasDeck = 20;
+        $scope.deck = [];
+        $scope.cartaInimigo = null;
+
+        $scope.getAtributoAtivo = getAtributoAtivo;
         $scope.batalhar = batalhar;
-        ////////////////        
-        function selecionarCartaInimigo() {
-            let r = Math.random() * _politicos.length - 1;
-            $scope.cartaInimigo = _politicos[Math.round(r)];
-            debugger;
+
+
+        activate();
+
+        ////////////////
+        function getAtributoAtivo(attr) {
+            return ($scope.atributoAtivo == attr);
         }
 
         function activate() {
-            $scope.numeroDeCartasInimigo = 10;
             _politicos = ArenaService.getListaPoliticos();
-            $scope.hand = [];
+            selecionarCartasDeck();
             selecionarCartasUsuario();
         }
 
@@ -33,74 +44,104 @@
             return self.indexOf(value) === index;
         }
 
-        function selecionarCartasUsuario() {
+        function selecionarCartasDeck() {
 
             if ((Math.random() * 10) > 5) {
-                $scope.hand.reverse();
+                _politicos.reverse();
             }
             _politicos.forEach(function (element) {
                 var r = Math.random() * 10;
-                if (r > 5 && $scope.hand.length < $scope.maximoDeCartas) {
-                    $scope.hand.push(element);
-                    $scope.hand = $scope.hand.filter(onlyUnique);
+                if (r > 5 && $scope.deck.length < $scope.numeroDeCartasDeck) {
+                    $scope.deck.push(element);
+                    $scope.deck = $scope.deck.filter(onlyUnique);
                 }
             });
 
-            if ($scope.hand.length < $scope.maximoDeCartas) {
-                separarCartas();
+            if ($scope.deck.length < $scope.numeroDeCartasDeck) {
+                selecionarCartasDeck();
             }
         }
-        
-        function realizarBatalha(cartaUsuario, atributo){
-            
-            if (parseFloat(cartaUsuario[atributo]) > parseFloat($scope.cartaInimigo[atributo])) {
-                //usuario ganhou
-                $scope.numeroDeCartasInimigo--;
-                selecionarCartaInimigo();
-                $scope.cartaInimigo = null;
 
-            } else if (parseFloat(cartaUsuario[atributo]) < parseFloat($scope.cartaInimigo[atributo])) {
-                //inimigo ganhou
-                $scope.hand.shift();
+        function selecionarCartasUsuario() {
+
+            if ((Math.random() * 10) > 5) {
+                $scope.deck.reverse();
+            }
+
+            while ($scope.hand.length < $scope.maximoDeCartasUsuario) {
+                let index = Math.round(Math.random() * $scope.deck.length - 1);
+                let carta = $scope.deck.splice(index, 1);
+                $scope.hand.push(carta[0]);
+            }
+        }
+
+        function selecionarCartaInimigo() {
+            let r = Math.random() * $scope.deck.length - 1;
+            let carta = $scope.deck.splice(r, 1);
+            $scope.cartaInimigo = carta[0];
+        }
+
+        function realizarBatalha(atributo) {
+
+            if (parseFloat($scope.cartaSelecionadaUsuario[atributo]) > parseFloat($scope.cartaInimigo[atributo])) {
+                //usuario ganhou
+                _ganhouRodada = 'usuario';
+                $scope.hand.push(JSON.parse(JSON.stringify($scope.cartaSelecionadaUsuario)));
+                $scope.cartaInimigo = null;
                 $scope.cartaSelecionadaUsuario = null;
 
+            } else if (parseFloat($scope.cartaSelecionadaUsuario[atributo]) < parseFloat($scope.cartaInimigo[atributo])) {
+                //inimigo ganhou
+                _ganhouRodada = 'inimigo';
+                $scope.deck.push(JSON.parse(JSON.stringify($scope.cartaInimigo)));
+                $scope.cartaInimigo = null;
+                $scope.cartaSelecionadaUsuario = null;
             } else {
                 //empate
-                $scope.numeroDeCartasInimigo--;
-                selecionarCartaInimigo();
-                $scope.hand.Shift();
                 $scope.cartaInimigo = null;
                 $scope.cartaSelecionadaUsuario = null;
-
             }
 
             verificaVencedor();
         }
 
         function batalhar(cartaUsuario, atributo) {
-            
-            $scope.cartaSelecionadaUsuario = cartaUsuario;
+            if (atributo) {
+                $scope.atributoAtivo = atributo;
+            } else {
+                $scope.atributoAtivo = _atributos[Math.round(Math.random() * _atributos.length - 1)];
+            }
+
+            if (!cartaUsuario) {
+                return;
+            }
+
+            let index = $scope.hand.indexOf(cartaUsuario);
+            if (index > -1) {
+                let carta = $scope.hand.splice(index, 1);
+                $scope.cartaSelecionadaUsuario = carta[0];
+            } else {
+                $scope.cartaSelecionadaUsuario = cartaUsuario;
+            }
+
             if (!$scope.cartaInimigo) {
                 selecionarCartaInimigo();
             }
-            if(!atributo){
-                atributo = atributos[Math.round(Math.random() * atributos.length-1)];
-            }
-            $timeout(function(){
-                console.log("chamou realizarBatalha");
-                realizarBatalha($scope.cartaSelecionadaUsuario, atributo);
-            }, 1500);
+
+            $timeout(function () {
+                realizarBatalha(atributo);
+            }, 3000);
         }
 
         function verificaVencedor() {
-            if ($scope.hand.length == 0 || $scope.numeroDeCartasInimigo == 0) {
+            if ($scope.hand.length == 0 || $scope.deck.length == 0) {
                 //Alguem ganhou
-            
+
                 if ($scope.hand.length > 0) {
                     //usuario ganhou
                     console.log("ganhou");
 
-                } else if ($scope.numeroDeCartasInimigo > 0) {
+                } else if ($scope.deck.length > 0) {
                     //inimigo ganhou
                     console.log("perdeu");
 
@@ -109,16 +150,15 @@
                     console.log("empate");
 
                 }
-                
+
             } else {
-                if($scope.cartaSelecionadaUsuario && !$scope.cartaInimigo){
-                    //Não acabou e o usuario ganhou a ultima rodada
-                    selecionarCartaInimigo();
-                    $timeout(function(){
-                        console.log("chamou batalhar");
+                if (_ganhouRodada == 'inimigo') {
+                    $timeout(function () {
+                        selecionarCartaInimigo();
                         batalhar($scope.cartaSelecionadaUsuario);
-                    }, 1500);
+                    }, 2000);
                 }
+
             }
         }
 
