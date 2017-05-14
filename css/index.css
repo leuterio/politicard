@@ -19,3 +19,8 @@
     height: auto;
     margin-top: -1em;
 }
+
+.fundo-instrucao {
+    background-color: #c3d4eb;
+    height: 100%;
+}
