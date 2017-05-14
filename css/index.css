@@ -10,3 +10,9 @@
 .index {
     height: 100%;
 }
+
+.banner-instrucao {
+    width: 30em; 
+    height: auto;
+    margin-top: -1em;
+}
