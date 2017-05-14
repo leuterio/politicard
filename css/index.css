@@ -1,12 +1,16 @@
 .page-injector-content {
-    height:100%;
+    height: 100%;
 }
 
 .fundo {
     background-color: #c3d4eb;
     height: 100%;
+    background-image: url(../img/bandeiraBrasil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .index {
     height: 100%;
 }
+
