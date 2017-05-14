@@ -5,7 +5,7 @@
     text-align: left;
     
     width: 25em;
-    height: 37.5em;
+    height: 36em;
     background: #db3042;
     -webkit-box-shadow: 0.3em 0.3em 1.8em 0em rgba(0,0,0,0.75);
     -moz-box-shadow: 0.3em 0.3em 1.8em 0em rgba(0,0,0,0.75);
@@ -23,7 +23,7 @@
 .card-bar-box {
     width: calc(100% - 1em);
     background: #db3042;
-    border: 0.5em solid #fff;
+    border: 0.3em solid #fff;
 }
 
 .card-bar-box div {
@@ -40,7 +40,7 @@
 .card-info-partido {
     float: right;
     width: 3.2em;
-    height: 3.2em;
+    height: 100%;
 }
 
 .card-info-partido img{
@@ -54,7 +54,7 @@
 .card-info-img {
     width: calc(100% - 1em);
     height: 18em;
-    border: 0.5em solid #fff;
+    border: 0.3em solid #fff;
     border-top: none;
     border-bottom: none;
     object-fit: cover;
@@ -63,7 +63,7 @@
 .card-attr-box div {
     width: calc(100% - 1em);
     padding: 0.5em 0em 0em 0em;
-    border: 0.5em solid #c0c0c0;
+    border: 0.3em solid #c0c0c0;
     border-top: none;
     cursor: pointer;
     
@@ -76,7 +76,7 @@
 }
 
 .card-attr-box div:first-child {
-    border: 0.5em solid #c0c0c0;
+    border: 0.3em solid #c0c0c0;
 }
 
 .card-attr-box div:hover {
