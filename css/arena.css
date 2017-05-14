@@ -136,6 +136,20 @@ body {
     cursor: pointer;
 }
 
+.placar {
+    position: fixed;
+    top: 4em;
+    left: 0px;
+    border: 4px solid #999;
+    border-radius: 15px;
+    width: 24em;
+    height: 17em;
+    padding: 1em;
+    border-radius: 0em;
+    border-left: none;
+    background-color: #666;
+    color: #fff;
+}
 /*@media screen and (max-width: 1366px) {
     #hand {
         bottom: -32.3em;
