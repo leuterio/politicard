@@ -14,4 +14,7 @@
 .galeria {
     background-color: #fff;
     padding-left: 5em;
+    margin-right: 1em;
+    padding-right: 1em;
+    width: 100%;
 }
